@@ -1,0 +1,36 @@
+{
+  "name": "user_info",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "userId": {
+      "type": "Number",
+      "mysql": {
+        "columnName": "userId",
+        "dataType": "INT",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "userName": {
+      "type": "string",
+      "oracle": {
+        "columnName": "userName",
+        "dataType": "VARCHAR2",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
