@@ -1,5 +1,7 @@
 # loopback-example-database
 
+loopback 操作 mysql 存储过程
+
 A tutorial for basic database related features.
 
 - [Overview](#overview)
@@ -336,3 +338,5 @@ Found: [ { id: 1,
 ---
 
 [More LoopBack examples](https://github.com/strongloop/loopback-example)
+
+
